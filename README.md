@@ -24,18 +24,18 @@ Django is a Python framework.
 	|   ├── wsgi.py	
   
   
- ### manage.py
+ ### `manage.py`
 Run Django's admin commands like `runserver`.
 
-### __init__.py
+### `__init__.py`
+File to initialize Python packages like [Celery](http://www.celeryproject.org/) and this kind of package.
 
-
-### settings.py
+### `settings.py`
 Django's configuration file. This file can be modified and have options like `DEBUG=TRUE` and `SECRET_KEY`.
 
- ### urls.py 
+ ### `urls.py`
  Definition of URLs from a *regular expression* that indicates which python function (*views.py*) will be executed when we are inside the page (url).
 
-### wsgi.py
+### `wsgi.py`
 Protocol to run app with server. More infos [here](https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/).
 
