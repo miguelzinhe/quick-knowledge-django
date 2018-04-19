@@ -48,3 +48,18 @@ Create a file to describe a migration. When you create your project with `django
 
 ### `migrate`
 Apply the makemigration file in the database.
+
+## Utilities
+
+Some commands and concepts that are very helpful.
+
+### Creating apps
+
+`$ python manage.py startapp app-name`
+
+
+### Changing ports 
+
+`$ python manage.py runserver 8080`
+
+
