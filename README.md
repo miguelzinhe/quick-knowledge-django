@@ -44,7 +44,7 @@ Protocol to run app with server. More infos [here](https://docs.djangoproject.co
 Migration is the Django way to import changes that we make in our models into our database. 
 
 ### `makemigrations`
-Create a file to describe a migration. When you create your project with `django-admin startproject <name>`, the `makemigration` command is run automatically. So it's important to run `migrate` after created the project.
+Create a file to describe a migration. When you create your project with `django-admin startproject <name>`, the `makemigration` command is run automatically. So it's important to run `migrate` after the project creation.
 
 ### `migrate`
 Apply the makemigration file in the database.
