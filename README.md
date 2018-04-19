@@ -6,6 +6,7 @@ A [Miguel](http://twitter.com/oieusouamiguell)'s repository for Django studies. 
 * [WTF is Django](#wtf-is-django)
 * [How to install](#how-to-install)
 * [Basics about django-admin boilerplate](#basics-about-django-admin-boilerplate)
+* [Migrations](#migrations)
 
 
 ## WTF is Django?
@@ -28,7 +29,7 @@ Django is a Python framework.
 Run Django's admin commands like `runserver`.
 
 ### `__init__.py`
-File to initialize Python packages like [Celery](http://www.celeryproject.org/) and this kind of package.
+File to initialize Python packages like [Celery](http://www.celeryproject.org/) and this kind of package. More info [here](https://docs.python.org/3/tutorial/modules.html#tut-packages).
 
 ### `settings.py`
 Django's configuration file. This file can be modified and have options like `DEBUG=TRUE` and `SECRET_KEY`.
@@ -39,3 +40,11 @@ Django's configuration file. This file can be modified and have options like `DE
 ### `wsgi.py`
 Protocol to run app with server. More infos [here](https://docs.djangoproject.com/en/2.0/howto/deployment/wsgi/).
 
+## Migrations
+Migration is the Django way to import changes that we make in our models into our database. 
+
+### `makemigrations`
+Create a file to describe a migration. When you create your project with `django-admin startproject <name>`, the `makemigration` command is run automatically. So it's important to run `migrate` after created the project.
+
+### `migrate`
+Apply the makemigration file in the database.
