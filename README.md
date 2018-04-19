@@ -13,7 +13,7 @@ A [Miguel](http://twitter.com/oieusouamiguell)'s repository for Django studies. 
 Django is a Python framework.
 
 ## How to install
-
+First, install Python and pip package. Then `pip install django` and start the coolest project in the universe with `django-admin startproject project-name`! Is great consider `virtualenv` and `virtualenvwrapper` to create projects in separate envs.
 
 ## Basics about django-admin boilerplate
 
